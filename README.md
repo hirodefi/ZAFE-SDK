@@ -2,7 +2,7 @@
 
 **Private SOL transfers on Solana for AI agents and developers. ZK-powered, non-custodial, one function call.**
 
-Built on [Zafe Protocol](https://zafe.network) — the privacy layer for Solana.
+Built on [Zafe Protocol](https://zafe.network) - the privacy layer for Solana.
 
 ---
 
@@ -64,11 +64,11 @@ await transfer(sender, recipient, amount, {
 
 ## What you can do with it
 
-**Users** — send SOL to any wallet with no on-chain link between sender and recipient.
+**Users** - send SOL to any wallet with no on-chain link between sender and recipient.
 
-**AI Agents** — drop private payments into any agentic workflow. No wallet adapter, no browser, no UI required.
+**AI Agents** - drop private payments into any agentic workflow. No wallet adapter, no browser, no UI required.
 
-**Developers & Builders** — add financial privacy to any app, protocol, or script with two lines of code.
+**Developers & Builders** - add financial privacy to any app, protocol, or script with two lines of code.
 
 ---
 
@@ -77,9 +77,9 @@ await transfer(sender, recipient, amount, {
 Powered by [Zafe Protocol](https://zafe.network):
 
 1. Sender deposits SOL into the Zafe vault (sender signs once)
-2. A ZK commitment note is generated — only you have it
+2. A ZK commitment note is generated - only you have it
 3. A Groth16 ZK-SNARK proof is generated server-side
-4. An independent relayer withdraws to the recipient — your wallet never signs the exit
+4. An independent relayer withdraws to the recipient - your wallet never signs the exit
 5. Zero on-chain link. Cryptographically unlinkable.
 
 ---
