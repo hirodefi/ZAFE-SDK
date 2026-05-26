@@ -1,0 +1,16 @@
+{
+  "name": "zafe-sdk",
+  "version": "0.2.0",
+  "description": "Private SOL transfers on Solana — powered by Zafe Protocol",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "keywords": ["solana", "privacy", "zk", "zafe", "transfer", "zksnark"],
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0",
+    "axios": "^1.6.0"
+  }
+}
